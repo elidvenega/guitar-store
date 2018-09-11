@@ -1,0 +1,121 @@
+body {
+  background: #252529;
+}
+
+.navbar {
+  background-color: #4c4848;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.home-inner {
+  background-image: url('../img/landing.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 1.2;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+
+.caption h3 {
+  color: white;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  margin-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+}
+
+.heading {
+  padding-top: 50px;
+}
+
+.about {
+  padding: 30px;
+}
+
+.back {
+  background-color: #fff;
+}
+
+
+img.guitars {
+  max-width: 100%;
+}
+
+.no-padding .col-md-6 {
+  padding: 0;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.bottom {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* Footer */
+
+footer .footer-cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer .footer-cols ul {
+  list-style: none;
+}
+
+footer .footer-cols ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+  background: #333;
+  padding: 1rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 780px) {
+  footer .footer-cols {
+    display: none;
+  }
+}
