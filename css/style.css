@@ -50,10 +50,11 @@ body {
 
 .heading {
   padding-top: 50px;
+  font-size:4rem;
 }
 
 .about {
-  padding: 30px;
+  padding: 25px;
 }
 
 .back {
